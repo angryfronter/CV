@@ -1,0 +1,68 @@
+.logobsuir{
+    position: relative;
+    text-align: center;
+    width: 90px;
+    margin-top: 0px;
+    margin-left: 150px;
+    float: left;
+}
+
+.text2{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    margin: 0px;
+    line-height: 10px;
+}
+
+
+/*/////////////////////////////////////////////*/
+
+.under2 {
+    position: relative;
+    color: black; /*color*/
+    cursor: pointer;
+    line-height: 22px;
+    text-decoration: none; /*delete underline*/
+}
+
+.under2:hover{
+    color: white;
+}
+
+.logoief{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    margin-top: 150px;
+    margin-right: 150px;
+    float: right;
+}
+
+.text3{
+    font-family: Verdana;
+    position: absolute;
+    top: 205px;
+    left: 440px;
+    margin: 0px;
+    line-height: 25px;
+}
+
+.foto{
+    position: relative;
+    text-align: center;
+    width: 400px;
+    margin-top: 370px;
+    margin-right: 400px;
+    float: bottom;
+}
+
+.foto2{
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 285px;
+    margin-top: 370px;
+    margin-left: -300px;
+
+}

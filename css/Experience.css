@@ -1,0 +1,40 @@
+.Exp{
+    position: relative;
+    text-align: center;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 250px;
+    float: left;
+}
+
+.text {
+    position: absolute;
+    top: 255px;
+    left: 600px;
+}
+
+/*UNDERLINE URL*/
+
+.under {
+    position: relative;
+    color: #00a650; /*color*/
+    cursor: pointer;
+    line-height: 1; /*height*/
+    text-decoration: none; /*delete underline*/
+
+}
+.under:after {
+    display: block;
+    position: absolute;
+    left: 0; /*direction*/
+    width: 0;/*before under*/
+    height: 2px; /*height line*/
+    background-color: #00a650; /*line color*/
+    content: "";
+    transition: width 0.3s ease-out;
+}
+
+.under:hover:after,
+.under:focus:after {
+    width: 100%; /*full focus*/
+}
